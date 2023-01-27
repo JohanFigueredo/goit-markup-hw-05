@@ -64,7 +64,7 @@
       <section class="main-display">
         <div class="container">
           <h1 class="main-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-          <button class="flex main-button" type="button">
+          <button class="flex main-button" type="button"  data-modal-open>
             <span class="button-title">Solicite nuestro servicio</span>
           </button>
         </div>
@@ -523,5 +523,22 @@
         </div>
       </section>
     </footer>
+
+
+
+    <section class="ventana-modal">
+      <div class="backdrop" data-modal="">
+        <div class="modal">
+          <button class="close-x" data-modal-close="">
+            <svg class="close-icoon" width="11" height="11">
+              <use width="11" height="11" href="./images/closeicon.svg#icon-equis"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+    <script src="./js/modal.js"></script>
+
+
   </body>
 </html>
